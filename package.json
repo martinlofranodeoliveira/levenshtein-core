@@ -1,0 +1,14 @@
+{
+  "name": "levenshtein-core",
+  "version": "0.1.0",
+  "description": "Levenshtein edit distance with operation alignment and similarity. Code-point aware. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/levenshtein.test.js",
+    "demo": "node bin/levenshtein.mjs --assert"
+  }
+}
